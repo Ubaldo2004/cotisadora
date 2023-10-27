@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+
+header {
+    background-color: blue;
+    padding: 10px 0;
+}
+
+
+h1, h2{
+    color: aliceblue;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h3{
+    margin: 10px;    
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h4{
+    margin: 10px;    
+    font-family: Arial, sans-serif;
+}
+
+hr{
+    background-color: black;
+}
+
+label{
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes img{
+    max-width: 300px;
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+footer{
+    background-color: blue;
+    padding: 10px 0;
+}
+

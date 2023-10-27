@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cotizador de Seguros</title>
+    <script defer src="./java/script.js"></script>
+    <script defer src="./java/dolar.js"></script>
+    <script defer src="./java/aseguradora.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Seguro de Auto</h1>
+        <h2>Un seguro con el que podes contar</h2>
+    </header>
+    <h3>Cotiza tu seguro</h3>
+    <hr>
+    <h4>Datos de tu auto</h4>
+
+    <label for="marca">Marca del Auto:</label>
+    <select id="marca">
+        <option value="Toyota">Toyota</option>
+        <option value="Ford">Ford</option>
+        <option value="Honda">Honda</option>
+        <option value="Clio">Renault</option>
+        <option value="Audi">Audi</option>
+        <option value="Peugeot">Peugeot</option>
+    </select><br><br>
+
+    <label for="modelo">Modelo del Auto:</label>
+    <input type="text" id="modelo"><br><br>
+
+    <label for="anio">Año del Auto:</label>
+    <input type="number" id="anio" min="1999" max="2023"><br><br>
+
+    <label for="valor">Valor del Auto:</label>
+    <input type="number" id="valor"><br><br>
+    <button id="calcular">Calcular</button>
+
+    <div id="resultado">
+    </div>
+    <div class="imagenes">
+        <img src="./media/audisasa.jpg" alt="Audi">
+        <img src="./media/peugot.jpg" alt="Peugot">
+    </div>
+
+    <section class="dolar" id="idDolarBlue">
+    </section>
+    <footer>
+        <h2>Telefono: xxx-xxx</h2>
+    </footer>
+</body>
+
+</html>
