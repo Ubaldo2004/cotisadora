@@ -44,22 +44,25 @@ label{
     font-family: Arial, sans-serif;
 }
 
-.imagenes{
-    display: flex;
-    justify-content: center;
-}
-
-.imagenes img{
-    max-width: 300px;
-    margin: 10px;
-}
-
 button{
     margin: 10px;
+}
+.dolar{
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 600px;
 }
 
 footer{
     background-color: blue;
-    padding: 10px 0;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 98.3%;
 }
 
