@@ -47,7 +47,7 @@ label{
 button{
     margin: 10px;
 }
-.dolar{
+.dolar {
     justify-content: center;
     text-align: center;
     background-color: blue;
@@ -56,6 +56,14 @@ button{
     padding: 15px;
     border-radius: 5px;
     width: 200px;
+}
+
+@media (max-width: 768px) {
+    .dolar {
+        width: 100%; 
+        margin: 10px; 
+        padding: 10px;
+    }
 }
 
 footer{
